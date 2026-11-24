@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="stylesheet" href="styles.css">
+    <title>Pomodoro Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="counter">
+       <h1> Pomodoro Timer</h1>
+       <p class="timer" id="timer">25:00 </p>
+      </div>
+      <div class="button-line">
+        <button onclick="start()" id="start">Start</button>
+        <button onclick="stop()" id="stop" >Stop</button>
+          <button onclick="reset()" id="reset" >Reset</button>
+      </div>
+    </div>
+    <script src="pomodoro_timer.js">
+    </script>
+  </body>
+</html>
